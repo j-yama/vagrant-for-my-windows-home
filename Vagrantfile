@@ -78,5 +78,5 @@ Vagrant.configure("2") do |config|
     # other utility
     git clone https://github.com/seebi/dircolors-solarized /vagrant/tmp/dircolors-solarized
     echo 'eval `dircolors /vagrant/tmp/dircolors-solarized/dircolors.ansi-dark`' >> ~/.bashrc
-   SHELL
+  SHELL
 end
