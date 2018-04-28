@@ -75,5 +75,8 @@ Vagrant.configure("2") do |config|
     systemctl start docker
     # setting for Elasticsearch
     sysctl -w vm.max_map_count=262144
-  SHELL
+    # other utility
+    git clone https://github.com/seebi/dircolors-solarized /vagrant/tmp/dircolors-solarized
+    echo 'eval `dircolors /vagrant/tmp/dircolors-solarized/dircolors.ansi-dark`' >> ~/.bashrc
+   SHELL
 end
