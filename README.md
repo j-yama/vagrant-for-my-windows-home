@@ -15,6 +15,6 @@ $ cd vagrant-for-my-windows-home/
 $ vagrant up
 $ vagrant ssh
 $ sudo su -
-# cd /vagrant/data/
-# docker-compose up
+\# cd /vagrant/data/
+\# docker-compose up
 ```
