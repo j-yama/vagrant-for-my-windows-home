@@ -5,8 +5,8 @@ boxはbentoのCentOS7.4を使用。
 また、Elasticsearch + KibanaをDocker起動するdocker-composeを同梱しているため、Elastic Stackを気軽に立ち上げたい方も利用できます。
 
 ## Requirements
-** Virtual Box 5.2.8 r 121009 (Qt5.6.2)
-** Vagrant 2.0.3
+* Virtual Box 5.2.8 r 121009 (Qt5.6.2)
+* Vagrant 2.0.3
 
 ## Usage
 ```bash
